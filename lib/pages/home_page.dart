@@ -172,9 +172,12 @@ class _HomePageMotosState extends State<HomePageMotos> {
                                 left: 0,
                                 right: 0,
                                 bottom: -constraints.maxHeight * 0.4,
-                                child: Image(
-                                  image: AssetImage(
-                                    motos.listImage[0].image,
+                                child: Hero(
+                                  tag: motos.name,
+                                  child: Image(
+                                    image: AssetImage(
+                                      motos.listImage[0].image,
+                                    ),
                                   ),
                                 ),
                               ),

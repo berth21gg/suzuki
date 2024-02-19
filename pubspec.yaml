@@ -70,6 +70,8 @@ flutter:
       - assets/motos/huracan/azul.png
       - assets/motos/huracan/blanco.png
       - assets/motos/huracan/negro.png
+      - assets/motos/huracan/rojo.png
+
       
   # assets:
   #   - images/a_dot_burr.jpeg
