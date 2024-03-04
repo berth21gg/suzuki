@@ -75,6 +75,9 @@ flutter:
       - assets/motos/huracan/blanco.png
       - assets/motos/huracan/negro.png
       - assets/motos/huracan/rojo.png
+      - assets/animations/heartLike.json
+      - assets/animations/startRating.json
+      - assets/animations/colorOption.json
 
       
   # assets:
