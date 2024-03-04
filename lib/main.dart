@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:suzuki/pages/home_page.dart';
+import 'package:suzuki/pages/login_screen.dart';
 
 void main() => runApp(const MyApp());
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Suzuki Motos',
       theme: ThemeData.dark(),
-      home: const HomePageMotos(),
+      home: LoginScreen(),
       debugShowCheckedModeBanner: false,
     );
   }

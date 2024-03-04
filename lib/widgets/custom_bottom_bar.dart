@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:suzuki/pages/login_screen.dart';
 
 class CustomBottomBar extends StatelessWidget {
   const CustomBottomBar({
@@ -22,7 +23,10 @@ class CustomBottomBar extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => LoginScreen()));
+              },
               icon: const Icon(
                 Icons.house,
                 size: 30,
